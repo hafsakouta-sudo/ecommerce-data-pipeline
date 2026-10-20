@@ -77,7 +77,9 @@ ecommerce-data-pipeline/
 
 
 ## Power BI Dashboard
+### Dashboard Preview
 
+![E-Commerce Sales & Customer Insights Dashboard](dashboard/dashboard_preview.png)
 The interactive Power BI dashboard provides insights into e-commerce sales, order performance, customer satisfaction, and payment behavior.
 
 ### Key Performance Indicators
