@@ -25,21 +25,29 @@ The Power BI dashboard analyzes 94,972 orders within the selected reporting peri
 
 ## Data Pipeline Architecture
 
-The project follows an end-to-end data engineering workflow:
 
+```text
 Raw CSV Files (Olist Dataset)
-        ↓
-Data Exploration (Jupyter Notebook)
-        ↓
-Data Cleaning & Transformation (Python, Pandas)
-        ↓
+          |
+          v
+Data Exploration (Jupyter)
+          |
+          v
+Data Cleaning (Python & Pandas)
+          |
+          v
 Cleaned CSV Files
-        ↓
+          |
+          v
 PostgreSQL Database (8 Tables)
-        ↓
+          |
+          v
 SQL Business Analysis
-        ↓
-Power BI Interactive Dashboard
+          |
+          v
+Power BI Dashboard
+```
+
 
 ### Pipeline Stages
 
@@ -77,7 +85,9 @@ ecommerce-data-pipeline/
 
 
 ## Power BI Dashboard
+### Dashboard Preview
 
+![E-Commerce Sales & Customer Insights Dashboard](dashboard/dashboard_preview.png)
 The interactive Power BI dashboard provides insights into e-commerce sales, order performance, customer satisfaction, and payment behavior.
 
 ### Key Performance Indicators
